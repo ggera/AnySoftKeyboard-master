@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dictionaries>
+    <Dictionary nameResId="@string/eng_dictionary" locale="en"
+                id="8a678ccc-b62a-41e3-9d1b-0023bf710b2b"
+                type="binary_resource"
+                dictionaryResourceId="@array/words_dict_array" autoTextResourceId="@xml/en_autotext"
+                description=""/>
+    <Dictionary
+        id="9f44f2d0-2f07-11e4-8c21-0800200c9a66"
+        locale="am"
+        nameResId="@string/am_dictionary"
+        type="binary"
+        dictionaryAssertName="am_binary.mp3"
+        description=""/>
+</Dictionaries>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards>
+    <Keyboard nameResId="@string/eng_keyboard" iconResId="@drawable/ic_stat_en"
+        layoutResId="@xml/qwerty" id="c7535083-4fe6-49dc-81aa-c5438a1a343a"
+        defaultDictionaryLocale="en" description="QWERTY Latin keyboard"
+        index="1" defaultEnabled="true"
+        physicalKeyboardMappingResId="@xml/physical"
+        screenshotResId="@drawable/english_qwerty_screenshot"
+        />
+    <!--Keyboard nameResId="Amharic" layoutResId="@xml/amharic_qwerty"
+        landscapeResId="@xml/amharic_qwerty" defaultDictionaryLocale="am" description="Amharic" index="1"/-->
+
+    <Keyboard nameResId="@string/eng_keyboard"
+              iconResId="@drawable/ic_stat_en" layoutResId="@xml/eng_16keys"
+              landscapeResId="@xml/qwerty" id="12335055-4aa6-49dc-8456-c7d38a1a5123"
+              defaultDictionaryLocale="en" description="16 keys English layout"
+              index="2" defaultEnabled="false"
+              physicalKeyboardMappingResId="@xml/physical"
+              screenshotResId="@drawable/english_16keys_screenshot"
+            />
+    <!--Keyboard  nameResId="Am_keyboard"
+        iconResId="../../Amharic/src/main/res/drawable/flag" layoutResId="../../Amharic/src/main/res/xml/amharic_qwerty"
+        landscapeResId="../../Amharic/src/main/res/xml/amharic_qwerty"
+        defaultDictionaryLocale="am" description="Amharic QWERTY keyboard!"
+        index="3"  defaultEnabled="false"
+        physicalKeyboardMappingResId="../../Amharic/src/main/res/xml/ru_physical"
+        screenshotResId="../../Amharic/src/main/res/drawable/app_icon"
+
+        /-->
+    <Keyboard nameResId="@string/eng_keyboard" iconResId="@drawable/ic_stat_en"
+              layoutResId="@xml/qwerty_with_symbols" landscapeResId="@xml/qwerty_with_symbols"
+              id="34CC76A3-91B3-4204-BB1B-421BA8FC8430"
+              defaultDictionaryLocale="en" description="QWERTY Latin keyboard with symbols (on long press)"
+              index="3" defaultEnabled="false"
+              physicalKeyboardMappingResId="@xml/physical"
+              screenshotResId="@drawable/english_qwerty_with_symbols_screenshot"
+            />
+
+    <Keyboard
+        id="4162cff8-21da-11e6-b67b-9e71128cae77"
+        nameResId="@string/am_keyboard"
+        layoutResId="@xml/amharic_qwerty"
+        landscapeResId="@xml/amharic_qwerty"
+        physicalKeyboardMappingResId="@xml/ru_physical"
+        iconResId="@drawable/flag"
+        defaultDictionaryLocale="am"
+        description="Amharic language pack!"
+        index="4"/>
+
+</Keyboards>

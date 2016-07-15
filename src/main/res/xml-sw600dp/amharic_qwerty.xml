@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="@integer/key_normal_height"-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="@integer/key_normal_height">
+
+    <Row>
+        <!--&#4677; &#4813;&#4768;;&#4653; &#4725;&#4829; &#4773; &#4769;&#4774; &#4770;&#4775;&#4949; -->
+        <Key android:codes="4677" android:keyLabel="" android:keyEdgeFlags="left" />
+        <Key android:codes="4813" android:keyLabel=""/>
+        <Key android:codes="4768" android:keyLabel="" android:popupCharacters="ዐ" />
+        <Key android:codes="4653" android:keyLabel="" />
+        <Key android:codes="4725" android:keyLabel=""  android:popupCharacters="ጥ" />
+        <Key android:codes="4829" android:keyLabel="" android:popupCharacters="ዥ"/>
+        <Key android:codes="4769" android:keyLabel="" android:popupCharacters="ዑ "/>
+        <Key android:codes="4770" android:keyLabel="" android:popupCharacters="ዒ"/>
+        <Key android:codes="4774" android:keyLabel="" android:popupCharacters="ዖ"/>
+        <Key android:codes="4949" android:keyLabel="" android:popupCharacters="ጵ" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <!--&#4771;&#4661;&#4853;&#4941;&#4877;&#4613;  &#4869; &#4781;&#4621;&#4772;-->
+        <Key android:codes="4771" android:keyLabel="" android:popupCharacters="ዓ" android:keyEdgeFlags="left"/>
+        <Key android:codes="4661" android:keyLabel="" android:popupCharacters="ሥ"/>
+        <Key android:codes="4853" android:keyLabel="" />
+        <Key android:codes="4941" android:keyLabel="" />
+        <Key android:codes="4877" android:keyLabel=""/>
+        <Key android:codes="4613" android:keyLabel="" android:popupCharacters="ሕ"/>
+        <Key android:codes="4869" android:keyLabel="" android:popupCharacters="ኅ"/>
+        <Key android:codes="4781" android:keyLabel=""  android:popupCharacters="ኽ"/>
+        <Key android:codes="4621" android:keyLabel="" />
+        <Key android:codes="4772" android:keyLabel="" android:popupCharacters="ዔ"  android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <!-- &#4845;;&#4925;&#4733; &#4773;;&#4709;;&#4757;&#4637; &#4775;; -->
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="4845" android:keyLabel=""    />
+        <Key android:codes="4925" android:keyLabel="" android:popupCharacters="ጽ" />
+        <Key android:codes="4733" android:keyLabel="" android:popupCharacters="ጭ"/>
+        <Key android:codes="4773" android:keyLabel="" android:popupCharacters="ዕ"/>
+        <Key android:codes="4709" android:keyLabel="" android:popupCharacters="ቨ"/>
+        <Key android:codes="4757" android:keyLabel="" android:popupCharacters="ኝ" />
+        <Key android:codes="4637" android:keyLabel="" />
+        <Key android:codes="4775" android:keyLabel=""/>
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+    </Row>
+</Keyboard>
